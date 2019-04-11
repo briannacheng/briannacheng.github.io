@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>chris krofchak!</title>
+
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald:200,300,700|Raleway:100,100i,200,200i,400,900" rel="stylesheet">
+
+
+<link rel="icon" href="https://i12.photobucket.com/albums/a213/superkate_2468/favicon-9.png" border="0" alt="photo favicon-9.png">
+
+<link href="style-my-tooltips.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+.crosshair {cursor: crosshair;}
+
+body {background:#ea8c78;color:#555;font-family:Raleway;font-size:14px;font-weight:200;}
+a {color:#000;text-shadow:2px 2px transparent;}
+a:hover {text-shadow:2px 2px #000;}
+b {font-weight:400;}
+
+::-webkit-scrollbar {width: 3px;height: 3px;}
+::-webkit-scrollbar-button {width: 0px;height: 0px;}
+::-webkit-scrollbar-thumb {background: #000;border: 1px solid #000;border-radius: 0px;}
+::-webkit-scrollbar-thumb:hover {background: #000;}
+::-webkit-scrollbar-thumb:active {background: #000;}
+::-webkit-scrollbar-track {background: #fff;border: 1px solid #fff;border-radius: 0px;}
+::-webkit-scrollbar-track:hover {background: #fff;
+}
+::-webkit-scrollbar-track:active {background: #fff;}
+::-webkit-scrollbar-corner {background: transparent;}
+
+/* we will assume for 250px sized posts, 20px padding and 25px side margins on both sides and 1px border
+
+:. 250 + 40 + 2 + 50 = 342px
+*/
+
+#opening {
+	position: fixed;
+	left: 50px;
+	width: 345px;
+	bottom: 25px;
+	height:450px;
+	border:2px solid black;
+	box-shadow:5px 5px rgba(0,0,0,0.5);
+	overflow: scroll;
+	z-index:9999999;
+	background: white;
+}
+
+#entries {
+	float: left;
+}
+
+.posts {
+	margin: 25px;
+	margin-bottom:0px;
+	position:relative;
+	padding:20px;
+	border: 1px solid black;
+	width:250px;
+	display:inline-block;
+	float: left;
+}
+
+#sb {
+	position:fixed;
+	bottom: 25px;
+	left: 444px;
+	width:150px;
+	padding: 20px;
+	border: 2px solid #000;
+	box-shadow: 5px 5px rgba(0,0,0,0.5);
+	background:#fff;
+}
+
+.tit {
+	padding:10px;
+	margin-top:5px;
+	background:#000;
+	font-size: 20px;
+	color:#fff;
+	font-family: Abril Fatface, cursive;
+	border:2px solid black;
+}
+
+.tit a {
+color:#fff;
+}
+
+.tit a:hover {
+ text-shadow: 2px 2px 0px #ea8c78;
+}
+
+.desc {
+	margin-top:15px;
+	padding:10px;
+	font-family:Helvetica;
+	font-size:10px;
+	font-weight:200;
+	background:#eee;
+	height:150px;
+	overflow:scroll;
+}
+
+/*
+#bod {
+	position:absolute;
+	margin-left:405px;
+	margin-top:30px;
+	border:5px solid #e1523d;
+	padding:20px;
+	background:white;
+	height:1000px;
+	width:250px;
+}
+*/
+
+#s-m-t-tooltip {
+	padding: 3px 8px;
+	margin: 20px;
+	font-size: 9px;
+	font-family:;
+	z-index: 99999999999;
+	background-color: #fff;
+	border: 1px solid #000;
+	box-shadow: 5px 5px 0px rgba(0,0,0,0.3);
+	-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-ms-transition:all 0.3s linear;-o-transition:all 0.3s linear;transition:all 0.3s linear;}
+
+</style>
+
+<script src="jquery-3.3.0.js"></script>
+<script src="jquery.style-my-tooltips.js"></script>
+<script>
+(function($){
+$(document).ready(function(){
+$("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:0,
+tip_fade_speed:0,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+
+</head>
+<body>
+
+
+<div id="opening">
+	<div id="entries">
+<div class="posts">
+mignonne, allons voir si la rose <br>
+qui ce matin avoit desclose <br>
+sa robe de pourpre au Soleil, <br>
+a point perdu ceste vesprée <br>
+les plis de sa robe pourprée, <br>
+et son teint au vostre pareil. <br>
+<br>
+las ! voyez comme en peu d'espace, <br>
+mignonne, elle a dessus la place <br>
+las ! las ses beautez laissé cheoir ! <br>
+o vrayment marastre Nature, <br>
+puis qu'une telle fleur ne dure <br>
+que du matin jusques au soir ! <br>
+<br>
+donc, si vous me croyez, mignonne,<br>
+tandis que vostre âge fleuronne<br>
+en sa plus verte nouveauté,<br>
+queillez, cueillez vostre jeunesse :<br>
+comme à ceste fleur la vieillesse<br>
+fera ternir vostre beauté.<br>
+<br>
+</div>
+<div class="posts">
+    let's see if this shit can handle two posts...<br>
+    mignonne, allons voir si la rose <br>
+    qui ce matin avoit desclose <br>
+    sa robe de pourpre au Soleil, <br>
+    a point perdu ceste vesprée <br>
+    les plis de sa robe pourprée, <br>
+    et son teint au vostre pareil. <br>
+    <br>
+    las ! voyez comme en peu d'espace, <br>
+    mignonne, elle a dessus la place <br>
+    las ! las ses beautez laissé cheoir ! <br>
+    o vrayment marastre Nature, <br>
+    puis qu'une telle fleur ne dure <br>
+    que du matin jusques au soir ! <br>
+    <br>
+    donc, si vous me croyez, mignonne,<br>
+    tandis que vostre âge fleuronne<br>
+    en sa plus verte nouveauté,<br>
+    queillez, cueillez vostre jeunesse :<br>
+    comme à ceste fleur la vieillesse<br>
+    fera ternir vostre beauté.<br>
+    <br>
+</div>
+</div>
+</div>
+
+	<div id="sb">
+	<div class="tit">
+	<a href="/" title="i'm gonna have to ask u to step outside">she, what?!</a>
+	</div>
+<div class="desc">
+...that’s too much<br>
+헤어지는 마당에 뭘 이런 거까지 알리나<br>
+이를테면 그녀에게 흔들린 것<br>
+그건 정말이지 TMI<br>
+<br>
+모르기에 더 좋은 게 있는 법<br>
+사랑의 끝 맛이 그런 것<br>
+You should know that<br>
+뚜루뚜 뚜 뚜 뚜루뚜 뚜<br>
+솔직해서 참 고맙네<br>
+<br>
+Ah 고맙다고 Thank you so much<br>
+고맙네 참 고마워<br>
+고마워 어쩌나 Thank you so much<br>
+알았어 흔들린 거<br>
+알았다고 You talk too much<br>
+<br>
+얼마나<br>
+더 하려구 끝을 보려구<br>
+That’s enough<br>
+됐어 거기까지 That’s enough<br>
+<br>
+쓸데없이 디테일해<br>
+You gave me too much information<br>
+끝까지 거짓말은 할 줄 몰라<br>
+보면 너도 참 어지간해<br>
+<br>
+So much가 Too much가 되는 거<br>
+과분함이 과함 되는 거<br>
+You know that<br>
+뚜루 뚜 뚜 딱 한 끗 차이<br>
+알려 줘서 참 고맙네<br>
+<br>
+Ah 고맙다고 Thank you so much<br>
+고맙네 참 고마워<br>
+고마워 어쩌나 Thank you so much<br>
+알았어 흔들린 거<br>
+알았다고 You talk too much<br>
+<br>
+얼마나<br>
+더 하려구 끝을 보려구<br>
+That’s enough<br>
+됐어 거기까지만<br>
+<br>
+I don’t need to know the truth<br>
+달콤했겠지 그 일탈 But 내겐 너무 써<br>
+I don’t wanna know that<br>
+뻔뻔한 얼굴로 미안하다고 Please shut<br>
+잘못한 건 넌데 내가 왜 상철 받아야 해<br>
+좋았던 추억마저 독이 돼 검게 변해가네<br>
+그래 너 독해 혼자 고귀해<br>
+아름다운 끝을 바래? No way<br>
+점점 커져가는 불신의 불씨<br>
+I’m sick of you and all that bull ****...<br>
+<br>
+Hey Too-Much-Talker, thank you so much<br>
+고맙네 참 고마워<br>
+고마워 어쩌나 Thank you so much<br>
+알았어 흔들린 거<br>
+알았다고 You talk too much<br>
+
+얼마나<br>
+더 하려구 끝을 보려구<br>
+That’s enough<br>
+됐어 거기까지 That’s enough<br>
+</div>
+</div>
+</body>
+</html>
