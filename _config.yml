@@ -4,14 +4,14 @@
 title:               Ed.
 tagline:             'a jekyll theme for minimal editions'
 description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://chriskrofchak.github.io'
+url:                 'http://briannacheng.github.io'
 baseurl:             '/'
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name:              Brianna Cheng # AND CHRIS KROFCHAK kinda
+  url:               https://twitter.com/girlcrushbri
+  email:             brianna.cheng@mail.mcgill.ca
 
 # Permalinks
 
