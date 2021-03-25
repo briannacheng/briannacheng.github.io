@@ -24,6 +24,9 @@
         bottom: 0;
         width: 100%;
       }
+
+      .puclass {
+      }
     </style>
   </head>
   <body>
@@ -50,7 +53,11 @@
 
         var feature = features[0];
 
-        var popup = new mapboxgl.Popup({ offset: [0, -15] })
+        var popup = new mapboxgl.Popup({
+          offset: [0, -15],
+          className: "puclass",
+          maxWidth: "600px",
+        })
           .setLngLat(feature.geometry.coordinates)
           .setHTML(
             "<h3>" +

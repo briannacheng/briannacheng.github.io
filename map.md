@@ -1,5 +1,5 @@
 ---
 layout: mappage
-title: MAP?
+title: Map
 author: BRI and CHRIS
 ---
