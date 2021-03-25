@@ -1,16 +1,16 @@
 # Built with Jekyll 3.2.0
 
 # Setup
-title:               Ed.
-tagline:             'a jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
+title:               Beyond Survival
+tagline:             'a defence of Montreal Chinatown'
+description:         ''
 url:                 'http://briannacheng.github.io'
 baseurl:             '/'
 
 # About/contact
 author:
   name:              Brianna Cheng # AND CHRIS KROFCHAK kinda
-  url:               https://twitter.com/girlcrushbri
+  url:               https://building21.ca/blue-interns-winter-2021
   email:             brianna.cheng@mail.mcgill.ca
 
 # Permalinks
