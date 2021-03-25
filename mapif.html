@@ -37,14 +37,14 @@
         "pk.eyJ1IjoiY2hyaXNrcm9mY2hhayIsImEiOiJja20yandjcGYyMHYxMm5rdmY5NGxpeXZqIn0.KVxjN_UQGddYtOAdL26cvg";
       var map = new mapboxgl.Map({
         container: "map", // Specify the container ID
-        style: "mapbox://styles/chriskrofchak/ckmo6o3az05yd17ohw4tylmws", // Specify which map style to use
+        style: "mapbox://styles/chriskrofchak/ckmocj5hq2stn18n1e2d9ryzh", // Specify which map style to use
         center: [-173.470948, 31.025849], // Specify the starting position [lng, lat]
         zoom: 2, // Specify the starting zoom
       });
 
       map.on("click", function (e) {
         var features = map.queryRenderedFeatures(e.point, {
-          layers: ["montreal-chinatown"], // replace this with the name of the layer
+          layers: ["montreal-chinatown-2"], // replace this with the name of the layer
         });
 
         if (!features.length) {
