@@ -3,8 +3,6 @@ layout: page
 title: Resources and Acknowledgements
 ---
 
-# Resources and Acknowledgements
-
 ## Resources on Asian-Indigenous Relations
 
 ChangeLab. “A Different Asian American Timeline.” Accessed March 10, 2021. https://aatimeline.com/comments
